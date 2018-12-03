@@ -1,0 +1,1 @@
+修改gemfile后，rails s时sqlite3总出错，通过将gemfile中的gem 'sqlite3'改成gem 'sqlite3', git: "https://github.com/larskanis/sqlite3-ruby", branch: "add-gemspec"后就可以了，但是u r on rails的网页却总是打不开
