@@ -1,0 +1,3 @@
+本地不用装pg
+Rails generate scaffold User name:string email:string 把scaffold传给rails generate命令，User name和email是指定成字符串
+Rails db:migrate 使用新的User数据模型更新数据库
