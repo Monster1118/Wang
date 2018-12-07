@@ -1,0 +1,42 @@
+格式化和空白
+
+格式化和空白问题是许多开发人员在协作时遇到的更令人沮丧和微妙的问题，尤其是跨平台问题。修补程序或其他协作工作很容易引入细微的空白更改，因为编辑器会默默地引入它们，如果您的文件曾经触及Windows系统，它们的行结尾可能会被替换。Git有一些配置选项来帮助解决这些问题。
+
+core.autocrlf
+如果你在Windows上进行编程并与没有（或反之亦然）的人一起工作，那么你可能会在某些时候遇到行结束问题。这是因为Windows对其文件中的换行使用回车字符和换行符，而Mac和Linux系统仅使用换行符。这是跨平台工作的一个微妙但令人讨厌的事实; Windows上的许多编辑器默默地用CRLF替换现有的LF样式的行结尾，或者当用户点击回车键时插入两个行结束字符。
+
+当您将文件添加到索引时，Git可以通过将CRLF行结尾自动转换为LF来处理此问题，反之亦然，当它将代码签出到您的文件系统时。您可以使用core.autocrlf设置打开此功能。如果您使用的是Windows计算机，请将其设置为true - 这会在您签出代码时将LF结尾转换为CRLF：
+
+$ git config --global core.autocrlf true
+如果您使用的是使用LF行结尾的Linux或Mac系统，那么您不希望Git在签出文件时自动转换它们; 但是，如果意外引入了CRLF结尾的文件，那么您可能希望Git修复它。您可以告诉Git在提交时将CRLF转换为LF，但不能通过将core.autocrlf设置为输入来反转：
+
+$ git config --global core.autocrlf input
+此设置应该在Windows签出中留下CRLF结尾，但在Mac和Linux系统以及存储库中的LF结尾。
+
+如果您是Windows程序员，只执行Windows项目，则可以关闭此功能，通过将config值设置为false来记录存储库中的回车：
+
+$ git config --global core.autocrlf false
+
+今天遇到的错误是
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sqlite3-1.3.13-x64-mingw32/lib/sqlite3.rb:   6:in `require': cannot load such file -- sqlite3/sqlite3_native (LoadError)
+
+Google出来的解决方法是
+（这个bug只出现在windows上）
+预
+gem uninstall sqlite3 --all
+资源
+下载最新的sqlite3-ruby，https：//github.com/sparklemotion/sqlite3-ruby
+解压缩包
+建立
+在提取的目录中运行命令行
+确保安装了C编译器并将其添加到PATH
+gem install bundler
+bundle install
+rake native gem
+你会发现一个名为'pkg'的目录
+安装
+输入dir'pkg'
+gem install --local sqlite3-xxx.gem （'xxx'是版本代码）
+校验
+irb
+require 'sqlite3'
