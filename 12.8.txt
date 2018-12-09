@@ -1,4 +1,4 @@
-重新安装了sqlite，然后在window下安装了Ubuntu的子系统，重新安装了ruby下面是Ubuntu下安装ruby的方法：
+重新安装了sqlite（3hrs），然后在window下安装了Ubuntu的子系统（1.5hrs），重新安装了ruby下面是Ubuntu下安装ruby的方法：
 1、 更新apt-get： ubuntu@ubuntu:~$ sudo apt-get update 
 2、 安装curl： ubuntu@ubuntu:~$ sudo apt-get install curl
 3、 安装rvm： 安装：ubuntu@ubuntu:~$ curl -L https://get.rvm.io | bash -s stable 配置：ubuntu@ubuntu:~$ source ~/.rvm/scripts/rvm 
