@@ -1,4 +1,4 @@
-今天在window下安装了Ubuntu的子系统，重新安装了ruby下面是Ubuntu下安装ruby的方法
+重新安装了sqlite，然后在window下安装了Ubuntu的子系统，重新安装了ruby下面是Ubuntu下安装ruby的方法：
 1、 更新apt-get： ubuntu@ubuntu:~$ sudo apt-get update 
 2、 安装curl： ubuntu@ubuntu:~$ sudo apt-get install curl
 3、 安装rvm： 安装：ubuntu@ubuntu:~$ curl -L https://get.rvm.io | bash -s stable 配置：ubuntu@ubuntu:~$ source ~/.rvm/scripts/rvm 
@@ -11,3 +11,6 @@ $rvm_path/config/db
 5、 更改gem源： 国外的源可选，若删除的话执行： ubuntu@ubuntu:~$ gem source -r https://rubygems.org/ 
 添加国内的源： ubuntu@ubuntu:~$ gem source -a https://ruby.taobao.org/ 
 6、 安装rails： ubuntu@ubuntu:~$ gem install rails
+明天计划：
+1.配置好环境
+2.赶上以前的进度
