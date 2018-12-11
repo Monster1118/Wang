@@ -1,0 +1,5 @@
+1.使用 rails generate scaffold 命令生成 Microposts 资源的代码
+2.在命令行中执行 rails console 命令，启动控制台。
+3.限制字数长度140以内，在app/models/micropost中加上：validates :content, length: { maximum: 140 }
+4.一个用户拥有多篇微博，在app/models.user中加上：has_many :microposts
+5.一篇微博属于一个用户，在app/models/micropost
