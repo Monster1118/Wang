@@ -1,0 +1,8 @@
+完整形式rails server	 简写形式rails s
+完整形式rails console  简写形式rails c
+完整形式rails generate简写形式rails g
+完整形式rails test        简写形式rails t
+rails db:rollback可以撤销前一个迁移操作rails db:migrate
+rails db:migrate VERSION=0可以回到最开始的状态
+GET 是最常用的 HTTP 操作，用于读取网络中的数据。它的意思是“读取一个网页”
+PATCH 和 DELETE，分别用于更新和销毁服务器中的某个东西。
