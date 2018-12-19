@@ -1,0 +1,13 @@
+今天看了视频，以下是笔记
+数据类型：
+String: xxx = "monster"
+Number: xxx = 111
+Array: xxx = [12,23,42,25]
+Boolean: xxx = true
+Hashes: xxx = {:name => "value", :age => 10}
+Symbols: :name(用来保存不怎么变化的)
+查看变量对象类型：变量类型.class
+调用对象的方法：变量名.方法名
+String的一些命令
+name.length（name的长度）
+name.reverse.upcase（name翻转后变大写）
