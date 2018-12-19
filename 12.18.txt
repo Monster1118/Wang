@@ -1,0 +1,38 @@
+count =1
+loop do
+ puts "xxx"
+  count +=1
+  if count >10
+    break
+end/执行xxx,直到满足if条件/
+
+while:当判定条件为true时循环执行
+until:当判断条件为false时循环执行
+例如：
+count = 10
+until count < 1
+   puts "I Love IterCast"
+   count -= 1
+end
+
+ruby迭代器
+例如：
+10.times do
+  puts "xxx"
+end
+
+1.upto(10) do |count|
+puts "count to #{count}"
+end
+/从1数到10/
+
+10.downto(1) do |count|
+puts "count to #{count}"
+end
+/从10数到1/
+
+1.step(10,2) do |count|
+  puts "step to #{count}"
+end
+/从1数到10，每次数2/
+
