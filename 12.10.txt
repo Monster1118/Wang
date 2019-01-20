@@ -3,3 +3,7 @@
 3.限制字数长度140以内，在app/models/micropost中加上：validates :content, length: { maximum: 140 }
 4.一个用户拥有多篇微博，在app/models.user中加上：has_many :microposts
 5.一篇微博属于一个用户，在app/models/micropost
+6.验证微博内容存在性的代码presence: true
+7.为 User 模型添加存在性验证(此处代码验证的是name和email)
+validates name, presence: true
+validates email, presence: true

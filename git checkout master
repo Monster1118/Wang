@@ -1,0 +1,43 @@
+[33mcommit b3ff6f949c5d786f02b5701c5142393e5594e1bf[m[33m ([m[1;36mHEAD -> [m[1;32mfeature-vulcan[m[33m, [m[1;33mtag: tag1[m[33m, [m[1;31morigin/master[m[33m, [m[1;32mmaster[m[33m)[m
+Merge: 3dde389 2a9558a
+Author: monster <1059105316@qq.com>
+Date:   Fri Nov 30 15:46:04 2018 +0800
+
+    merge with no--ff
+
+[33mcommit 2a9558a478d8df29b9445a0b7d1d03f2ec36d20a[m[33m ([m[1;32mdev[m[33m)[m
+Author: monster <1059105316@qq.com>
+Date:   Fri Nov 30 15:43:43 2018 +0800
+
+    wow
+
+[33mcommit 3dde3896317bd47b21ae3ff9f858dcb720e85caf[m
+Merge: 4aa1adc 4da7d1c
+Author: monster <1059105316@qq.com>
+Date:   Fri Nov 30 15:09:34 2018 +0800
+
+    fix
+
+[33mcommit 4aa1adc3be33b7d018cfa9341ed116691e766854[m
+Author: monster <1059105316@qq.com>
+Date:   Fri Nov 30 14:55:58 2018 +0800
+
+    another key
+
+[33mcommit 4da7d1c71d775e841aa015c33fd726fdac393a71[m
+Author: monster <1059105316@qq.com>
+Date:   Fri Nov 30 14:30:16 2018 +0800
+
+    key
+
+[33mcommit 49ca95b771e4ec56e7fa64396d81a69d818a0670[m
+Author: monster <1059105316@qq.com>
+Date:   Fri Nov 30 13:43:46 2018 +0800
+
+    branch testing
+
+[33mcommit 4bf4dc01be24ef2988056cd54b3a8ac847f2912c[m
+Author: monster <1059105316@qq.com>
+Date:   Thu Nov 29 00:20:55 2018 +0800
+
+    add ku

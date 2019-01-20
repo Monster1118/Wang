@@ -4,6 +4,7 @@ loop do
   count +=1
   if count >10
     break
+  end
 end/执行xxx,直到满足if条件/
 
 while:当判定条件为true时循环执行
