@@ -1,0 +1,7 @@
+在app/assets/stylesheets/custom.scss中写
+@import "bootstrap-sprockets";
+@import "bootstrap";
+这两行代码会引入整个 Bootstrap CSS 框架。
+
+利用gem 'bootstrap', '~> 4.2.1' 安装了bootstrap，但是
+因为版本的问题一直没成功，所以跳过这一部分。
